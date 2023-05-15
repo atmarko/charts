@@ -98,7 +98,7 @@ jenkinsUser: user
 ## @param jenkinsPassword Jenkins user password
 ## Defaults to a random 10-character alphanumeric string if not set
 ##
-jenkinsPassword: ""
+jenkinsPassword: "Marko123"
 ## @param jenkinsHost Jenkins host to create application URLs
 ##
 jenkinsHost: ""
@@ -620,7 +620,7 @@ customReadinessProbe: {}
 service:
   ## @param service.type Jenkins service type
   ##
-  type: LoadBalancer
+  type: ClusterIP
   ## @param service.ports.http Jenkins service HTTP port
   ## @param service.ports.https Jenkins service HTTPS port
   ##
